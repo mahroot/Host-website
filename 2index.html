@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Dream Construction — a colorful, modern construction company website offering residential, commercial and infrastructure services." />
+  <title>Dream Construction</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-1P2h3l0n8Z9U..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta property="og:title" content="Dream Construction" />
+  <meta property="og:description" content="Quality builds. On time. On budget." />
+  <meta property="og:type" content="website" />
+  <style>
+    .logo-img {
+      height: 40px;
+      width: auto;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">
+        <img src="https://img.freepik.com/premium-vector/real-estate-building-construction-logo-design-abstract-vector-template_856308-929.jpg" 
+             alt="Dream Construction Logo" class="logo-img"> 
+        Dream Construction
+      </a>
+      <nav id="nav" class="nav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="btn btn-sm">Get Quote</a>
+      </nav>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero" aria-label="Hero">
+    <div class="overlay"></div>
+    <div class="container hero-inner">
+      <h1>We Build It <span class="highlight">Right</span>.</h1>
+      <p>Residential, commercial and infrastructure projects delivered with precision and heart.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-lg">See Projects</a>
+        <a href="#contact" class="btn btn-outline btn-lg">Contact Us</a>
+      </div>
+    </div>
+    <!-- Background via external URL -->
+    <div class="hero-bg" role="img" aria-label="Construction site cranes and workers"
+      style="background-image:url('https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=1600&auto=format&fit=crop');">
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <header class="section-header">
+        <h2>Our <span class="highlight">Services</span></h2>
+        <p>From blueprint to handover, we cover every stage with safety and quality.</p>
+      </header>
+      <div class="cards grid-3">
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-house-chimney"></i></div>
+          <h3>Residential Builds</h3>
+          <p>Custom homes, apartments and villas with premium finishes and sustainable materials.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-city"></i></div>
+          <h3>Commercial</h3>
+          <p>Offices, malls and fit-outs that balance functionality, comfort and aesthetics.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-road"></i></div>
+          <h3>Infrastructure</h3>
+          <p>Roads, bridges and public works executed safely, on schedule and within budget.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section alt">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>About <span class="highlight">Dream Construction</span></h2>
+        <p>We’re a full-service construction company with a passionate team of engineers, architects and project managers. Over the last decade, we’ve completed 120+ projects across residential, commercial and infrastructure segments.</p>
+        <ul class="ticks">
+          <li><i class="fa-solid fa-check"></i> ISO-certified safety processes</li>
+          <li><i class="fa-solid fa-check"></i> Transparent pricing & milestones</li>
+          <li><i class="fa-solid fa-check"></i> Dedicated quality assurance</li>
+        </ul>
+        <a href="#contact" class="btn">Request a Proposal</a>
+      </div>
+      <div class="about-gallery">
+        <img src="https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Architect reviewing plans">
+        <img class="stacked" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop" alt="Workers at a construction site">
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <header class="section-header">
+        <h2>Recent <span class="highlight">Projects</span></h2>
+        <p>A snapshot of our quality and attention to detail.</p>
+      </header>
+      <div class="gallery grid-4">
+        <figure class="tile">
+          <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=1200&auto=format&fit=crop" alt="High-rise construction">
+          <figcaption>Skyline Tower • 2025</figcaption>
+        </figure>
+        <figure class="tile">
+          <img src="https://www.modus.space/wp-content/uploads/2024/09/Atkins-05.jpg" alt="Modern office">
+          <figcaption>Nova Offices • 2024</figcaption>
+        </figure>
+        <figure class="tile">
+          <img src="https://teja10.kuikr.com///r1/20160502/ak_625_195895175-1462131430_700x700.jpeg" alt="Residential complex">
+          <figcaption>Green Haven • 2023</figcaption>
+        </figure>
+        <figure class="tile">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1aWfUfACxwrUGQr71CSgmcDruBM_jXxk2L0dJ2Z4RsiwXrtxle9QS7ksxH7-yuH2COSs&usqp=CAU" alt="Bridge infrastructure">
+          <figcaption>Riverlink Bridge • 2022</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta">
+    <div class="container cta-inner">
+      <h3>Ready to break ground on your next project?</h3>
+      <a href="#contact" class="btn btn-lg">Talk to Our Team</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt">
+    <div class="container contact-grid">
+      <div class="contact-text">
+        <h2>Contact <span class="highlight">Us</span></h2>
+        <p>Send us your requirements and we’ll get back within 1 business day.</p>
+        <ul class="info">
+          <li><i class="fa-solid fa-location-dot"></i> Jaipur, Rajasthan, IN</li>
+          <li><i class="fa-solid fa-phone"></i> +91 70149 56679</li>
+          <li><i class="fa-solid fa-envelope"></i> hello@dreamconstruction.example</li>
+        </ul>
+      </div>
+      <form class="contact-form" action="#" method="POST" netlify>
+        <input type="hidden" name="form-name" value="contact" />
+        <div class="form-row">
+          <label>Full Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+        </div>
+        <label>Subject
+          <input type="text" name="subject" placeholder="What do you need?" required>
+        </label>
+        <label>Message
+          <textarea name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+        </label>
+        <button type="submit" class="btn btn-lg">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo footer-logo" href="#home">
+          <img src="https://img.freepik.com/premium-vector/real-estate-building-construction-logo-design-abstract-vector-template_856308-929.jpg" 
+               alt="Dream Construction Logo" class="logo-img"> 
+          Dream Construction
+        </a>
+        <p class="muted">Quality builds since 2015.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="link-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <div class="social">
+          <a aria-label="Instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a aria-label="Facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a aria-label="LinkedIn" href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> Dream Construction. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
